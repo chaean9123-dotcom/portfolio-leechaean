@@ -2556,3 +2556,12 @@ section,
 .font-chae {
   font-family: gjgjgj;
 }
+
+@font-face {
+  font-family: ghghgh;
+  src: url(../fonts/SeoulNamsanM.ttf);
+}
+
+.font-an {
+  font-family: ghghgh;
+}
