@@ -2205,7 +2205,21 @@ section,
   align-items: center;
   gap: 0.5rem;
   transition: 0.3s;
+  margin: 10px;
 }
+
+.contact .contact-form .btn-reset {
+  background-color: #7b7b7b;
+  color: var(--contrast-color);
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: 0.3s;
+  margin: 10px;
+}
+
 
 .contact .contact-form .btn i {
   font-size: 1.25rem;
@@ -2213,7 +2227,9 @@ section,
 
 .contact .contact-form .btn:hover {
   background-color: color-mix(in srgb, var(--accent-color), var(--contrast-color) 20%);
+  /* 여기가 아마 메세지 보낼때 가는 곳같은데... */
 }
+
 
 /*--------------------------------------------------------------
 # Portfolio Details Section
